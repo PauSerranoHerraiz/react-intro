@@ -1,16 +1,20 @@
 import MyFirstComponent from "./components/MyFirstComponent"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import Greeting from "./components/Greeting"
+import User from "./components/User"
 
 function App() {
 
   return (
     <>
-      <Header />
+      <Header title="hello world" />
+
+      <User firstName= "Valentina" surname="Serrano" age={4}/>
+      <User firstName= "Alguer" surname="Serrano" age={1}/>
+      <User firstName= "Aleyda" surname="Casas" age={39}/>
+
       <MyFirstComponent />
       <Footer />
-      <Greeting />
     </>
   )
 }

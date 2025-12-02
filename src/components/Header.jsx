@@ -1,6 +1,8 @@
 
-function Header (){
-    return <h2>This is the Header component</h2>
+function Header (props){
+    
+    
+    return <h2>The title is...s {props.title}</h2>
 }
 
 export default Header 
