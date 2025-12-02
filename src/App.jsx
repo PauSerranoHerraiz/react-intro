@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <Header title="hello world" />
-      <MovieList />
-      <User firstName="Valentina" surname="Serrano" age={4} />
-      <User firstName="Alguer" surname="Serrano" age={1} />
-      <User firstName="Aleyda" surname="Casas" age={39} />
 
+      <User firstName="Valentina" surname="Serrano Casas" age={4} />
+      <User firstName="Alguer" surname="Serrano Casas" age={1} />
+      <User firstName="Aleyda" surname="Casas Miró" age={39} />
+      <MovieList />
       <MyFirstComponent />
 
 
